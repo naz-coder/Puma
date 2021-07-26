@@ -3,7 +3,16 @@
 body{
     margin: 0 100px;
     background-color: #f5f5f5;
-    font-family: 'Livvic', sans-serif;}
+    font-family: 'Livvic', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
 
 #topbar{
     background-color: #6AC1D4;
@@ -17,7 +26,7 @@ body{
 
 #topbar div{
     margin-left: 1rem;
-    margin-top: -8px;
+    margin-top: 0px;
 }
 
 #topbar img{
@@ -27,13 +36,30 @@ body{
 
 #topbar .festival{
     border-right: 1px solid #ffffff;
-    border
+    
 }
 
 #topbar .live{
     background-color: #ffffff;
     color: #000000;
-    padding: 0.2rem 0.5rem;
+    padding: 0.7rem 0.9rem;
+    margin-top: 10px;
+}
+
+/* nav */
+section#topmenu .main-nav{
+    color: #000000;
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 15rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 1rem;
+    font-size: small;
+    
 }
 
 @media screen and (max: 786px){
