@@ -52,8 +52,7 @@ section#topmenu nav.main-nav{
     display: flex;
     grid-template-columns: 1fr 2fr;
     grid-gap: 15rem;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
 section#topmenu nav.main-nav a.star{
     color: #f6a81e;
@@ -61,6 +60,7 @@ section#topmenu nav.main-nav a.star{
 }
 section#topmenu nav.main-nav ul.main-menu{
     font-size: 12px;
+    margin-left: 11rem;
 }
 section#topmenu nav.main-nav ul a{
     color: #d2d2d4;
@@ -102,13 +102,14 @@ header{
     height: 11vh;
     margin-left: -100px;
     color: #000000;
-    margin-top: -10px;
+    margin-top: 1px;
 }
 
 header div{
     display: flex;
     justify-content: space-between;
-    margin:  25px 100px;
+    margin:  20px 100px;
+
 }
 
 header div .cart{
@@ -116,10 +117,11 @@ header div .cart{
     font-weight: 900;
 }
 header input{
-    width: 29rem;
-    height: 2.1rem;
+    width: 35rem;
+    height: 2.5rem;
     border-radius: 5px;
     border: 1px solid #d2d2d4;
+    margin-left: 3rem;
 
 }
 
@@ -130,7 +132,7 @@ header ::placeholder{
 header .btn-1{
     background-color: #E4811C;
     width: 5rem;
-    height: 2.3rem;
+    height: 2.7rem;
     color: #ffffff;
     text-transform: uppercase;
     border: 1px solid #E4811C;
@@ -139,14 +141,18 @@ header .btn-1{
 }
 
 header ul{
-    font-size: 1rem;
-    padding-left: 50px;
+    font-size: 1.4rem;
     font-weight: 900;
+    word-spacing: 0.5rem;
+    margin-left: -5rem;
+    margin-top: 0.5rem;
+    font-family: 'Livvic', sans-serif;  
 
 }
 
-@media screen and (max: 786px){
-    .hide-on-small{
-        display: none;
+@media screen and (max-width: 786px) {
+    #topbar, #topmenu{
+      display: none;
     }
-}
+
+  }
