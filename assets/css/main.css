@@ -15,6 +15,15 @@ ul{
     list-style: none;
 }
 
+.menu-bars{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    display: none;
+}
+
 #topbar{
     background-color: #6AC1D4;
     display: flex;
@@ -92,7 +101,8 @@ ul{
 section#topmenu nav.main-nav .fa-star{
     font-size: 5px;
 }
-header{
+
+section#head {
     background-color: #fff;
     -webkit-box-shadow: 0 8px 6px -6px #ccc;
     -moz-box-shadow: 0 8px 6px -6px #ccc;
@@ -105,18 +115,18 @@ header{
     margin-top: 1px;
 }
 
-header div{
+section#head div{
     display: flex;
     justify-content: space-between;
     margin:  20px 100px;
 
 }
 
-header div .cart{
+section#head div .cart{
     font-size: xx-large;
     font-weight: 900;
 }
-header input{
+section#head input{
     width: 35rem;
     height: 2.5rem;
     border-radius: 5px;
@@ -125,11 +135,11 @@ header input{
 
 }
 
-header ::placeholder{
+section#head ::placeholder{
     font-size: 1rem;
 }
 
-header .btn-1{
+section#head .btn-1{
     background-color: #E4811C;
     width: 5rem;
     height: 2.7rem;
@@ -140,19 +150,55 @@ header .btn-1{
     box-shadow: 0 8px 6px -6px #ccc;
 }
 
-header ul{
-    font-size: 1.4rem;
-    font-weight: 900;
-    word-spacing: 0.5rem;
-    margin-left: -5rem;
-    margin-top: 0.5rem;
-    font-family: 'Livvic', sans-serif;  
-
+ul.header-menu{
+    display: none;
 }
 
 @media screen and (max-width: 786px) {
     #topbar, #topmenu{
-      display: none;
+        display: none;
+      }
+  
+    .menu-bars{
+        display: block;
     }
 
+    .menu-bars:hover{
+        opacity: 0.5;
+    }    
+
+    ul.header-menu{
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: -30px;
+        font-size: 0.6rem;
+        word-spacing: 0.1rem;
+        line-height: 1.5rem;
+        background: #ffffff;
+        width: 90%;
+        height: 250%;
+        border-right: #ccc 1px solid;
+        opacity: 0.9;
+        transform: translateX(-500px);
+        transition: transform 0.5s ease-in-out;
+    }
+    ul.header-menu.show{
+        transform: translateX(-0);
+    }
+
+    ul.header-menu p{
+        border-top: #cccc solid 1px;
+        width: 95%;
+    }
+
+    /* ul.header-menu p:last-child{
+        border-top: 0;
+    } */
+
+    section#head.cart{
+        font-size: 5px;
+        font-weight: 100;
+    }
   }
+  
