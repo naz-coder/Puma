@@ -13,6 +13,7 @@
 <body>
     <div class="menu-bars">
         <i class="fas fa-bars"></i>
+        <!-- <i class="fas fa-bars"><a href="#" class="cart">PUMIA<i class="fas fa-shopping-cart"></i></a></i> -->
     </div>   
     <ul class="header-menu">
         <li><a href="#"><i class="far fa-comment-dots">  Live Help</i></a></li>
@@ -72,17 +73,23 @@
 
             <div class="header">   
                 <a href="#" class="cart">PUMIA<i class="fas fa-shopping-cart"></i></a>
-                <form>
+                <form class="form1 hide-on-small">
                     <input type="text" placeholder="Search products, brands and categories">
                     <button type="button" class="btn-1">Search</button>
                 </form>
                 <ul>
-                    <li><a href="#"><i class="far fa-user"> Account  <i class="fas fa-chevron-down fa-xs"></i></i></a></li>
-                    <li><a href="#"><i class="far fa-question-circle"> Help  <i class="fas fa-chevron-down fa-xs"></i></i></a></li>
-                    <li><a href="#"><i class="fas fa-shopping-cart"> Cart  <i class="fas fa-chevron-down fa-xs"></i></i></a></li>
-                </ul>    
+                    <li><a href="#"><i class="far fa-user"><span class="link-title"> Account</span><i class="fas fa-chevron-down fa-xs"></i></i></a></li>
+                    <li><a href="#"><i class="far fa-question-circle"><span class="link-title"> Help</span><i class="fas fa-chevron-down fa-xs"></i></i></a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"><span class="link-title"> Cart</span><i class="fas fa-chevron-down fa-xs"></i></i></a></li>
+                </ul>
+            </div>
+            <div class="header2">   
+                <form class="form2 hide-on-large">
+                    <input type="text" placeholder="Search products, brands and categories">
+                </form>
             </div>
         </section>
+        
     <!-- side menu -->
 
     <script>
