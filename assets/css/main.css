@@ -90,13 +90,19 @@ section#topmenu nav.main-nav ul a.now:hover{
     color: #E85B31;
 }
 
-ul{
+section#topmenu ul{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 1rem;
+    font-size: small;
+    color: #000000;  
+}
+section#head ul{
     display: flex;
     justify-content: space-between;
     grid-gap: 1rem;
     font-size: small;
     color: #000000;
-    
 }
 section#topmenu nav.main-nav .fa-star{
     font-size: 5px;
@@ -155,9 +161,27 @@ section#head .btn-1{
     box-shadow: 0 8px 6px -6px #ccc;
 }
 
-ul.header-menu{
+body ul.header-menu{
     display: none;
 }
+
+section#landing{
+    background-color: #fff;
+    -webkit-box-shadow: 0 8px 6px -6px #ccc;
+    -moz-box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 8px 8px 6px -6px #ccc;
+    border-radius: 0.3rem;
+    margin-top: 6rem;
+    margin-left: 0.1rem;
+    width: 15rem;
+}
+section#landing li{
+    margin-left: -2rem;
+    line-height: 2.3rem;
+    
+}
+
+
 
 @media screen and (max-width: 786px) {
     #topbar, #topmenu{
@@ -220,6 +244,12 @@ ul.header-menu{
         font-size: 1rem;
     }
 
+    /* section#head .header ul i{
+        margin-left: 2rem;
+        padding-top: -2rem;
+
+    } */
+
     section#head .header .link-title{
         display: none;
     }
@@ -253,7 +283,7 @@ ul.header-menu{
     }
     section#head div.header2 input{
         width: 95vw;
-        height: 1.4rem;
+        height: 1.5rem;
         border-radius: 15px;
         border: 1px solid #d2d2d4;
         margin-left: 0.3rem;
@@ -263,5 +293,9 @@ ul.header-menu{
         font-size: 0.8rem;
     }
     
+    /* landing */
+    section#landing{
+        display: none;
+    }
   }
   
