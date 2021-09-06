@@ -165,23 +165,45 @@ body ul.header-menu{
     display: none;
 }
 
-section#landing{
+section#landing ul{
     background-color: #fff;
     -webkit-box-shadow: 0 8px 6px -6px #ccc;
     -moz-box-shadow: 0 8px 6px -6px #ccc;
     box-shadow: 8px 8px 6px -6px #ccc;
     border-radius: 0.3rem;
-    margin-top: 6rem;
+    margin-top: 0.0rem;
     margin-left: 0.1rem;
     width: 15rem;
 }
-section#landing li{
+section#landing ul li{
     margin-left: -2rem;
-    line-height: 2.3rem;
-    
+    line-height: 2.3rem;   
 }
 
+section#landing div.showcase{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
 
+section#landing div.showcase img.center{
+    width: 49rem;
+    height: 27.5rem;
+    border-radius: 0.3rem;
+}
+
+section#landing div.showcase div> img.side-gif1{
+    width: 14rem;
+    height: 13.5rem;
+    border-radius: 0.3rem;
+}
+
+section#landing div.showcase div> img.side-gif2{
+    width: 14rem;
+    height: 13.5rem;
+    border-radius: 0.3rem;
+}
 
 @media screen and (max-width: 786px) {
     #topbar, #topmenu{
@@ -294,7 +316,21 @@ section#landing li{
     }
     
     /* landing */
-    section#landing{
+    section#landing div.showcase ul{
+        display: none;
+    }
+    section#landing div.showcase img.center{
+        margin-left: -6.5rem;
+        width: 20rem;
+        height: 8rem;
+        border-radius: 0.3rem;
+    }
+    
+    section#landing div.showcase div> img.side-gif1{
+        display: none;
+    }
+    
+    section#landing div.showcase div> img.side-gif2{
         display: none;
     }
   }
