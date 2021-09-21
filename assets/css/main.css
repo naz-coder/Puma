@@ -2,7 +2,7 @@
 
 body{
     margin: 0 100px;
-    background-color: #f5f5f5;
+    background-color: #e9ebec;
     font-family: 'Livvic', sans-serif;  
 }
 
@@ -175,6 +175,7 @@ section#landing ul{
     margin-left: 0.1rem;
     width: 15rem;
 }
+
 section#landing ul li{
     margin-left: -2rem;
     line-height: 2.3rem;   
@@ -188,7 +189,7 @@ section#landing div.showcase{
 }
 
 section#landing div.showcase img.center{
-    width: 49rem;
+    width: 47.5rem;
     height: 27.5rem;
     border-radius: 0.3rem;
 }
@@ -206,14 +207,25 @@ section#landing div.showcase div> img.side-gif2{
 }
 
 section#tabs .tabs-column-1{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
 }
 
-section#tabs .tabs-column-1 .tab-1 i{
-    margin-right: 2rem;
-    margin-top: 1.2rem;
-    color: #ffffff;
+section#tabs .tabs-column-1 p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+
+}
+
+section#tabs .tabs-column-1 .tab-1{
+    border-radius: 0.3rem;
+    width: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #ffffff;
+    font-size: 1.2rem;
 }
 
 section#tabs .tabs-column-1 .tab-1 div.icon{
@@ -224,42 +236,175 @@ section#tabs .tabs-column-1 .tab-1 div.icon{
     padding-top: 0.5rem;
     border-radius: 5rem 5rem 5rem 5rem;
     margin-top: 0.5rem;
+    margin-left: 0.5rem;
 }
 
-section#tabs .tabs-column-1 .tab-1{
-    width: 20rem;
-    display: flex;
-    background: #ffffff;
-    justify-content: space-evenly;
-    font-size: 1.2rem;
-    
+section#tabs .tabs-column-1 .tab-1 i{
+    margin-left: -1rem;
+    margin-top: 0.4rem;
+    color: #ffffff;
 }
 
 section#tabs .tabs-column-1 .tab-2{
-    display: flex;
-    background: #ffffff;
-    justify-content: space-between;
-    font-size: 1.2rem;
+    border-radius: 0.3rem;
     width: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #ffffff;
+    font-size: 1.2rem;
+}
 
+section#tabs .tabs-column-1 .tab-2 div.icon{
+    background-color: #d2d2d4;
+    width: 1rem;
+    height: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+section#tabs .tabs-column-1 .tab-2 i{
+    margin-left: -1rem;
+    margin-top: 0.4rem;
+    color: #ffffff;
 }
 
 section#tabs .tabs-column-1 .tab-3{
-    display: flex;
-    background: #ffffff;
-    justify-content: space-between;
+    border-radius: 0.3rem;
     width: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #ffffff;
+    font-size: 1.2rem;
+}
 
-    
+section#tabs .tabs-column-1 .tab-3 div.icon{
+    background-color: #FF9900;
+    width: 1rem;
+    height: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+section#tabs .tabs-column-1 .tab-3 i{
+    margin-left: -1rem;
+    margin-top: 0.4rem;
+    color: #ffffff;
 }
 
 section#tabs .tabs-column-1 .tab-4{
-    display: flex;
-    background: #ffffff;
-    justify-content: space-between;
+    border-radius: 0.3rem;
     width: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #ffffff;
+    font-size: 1.2rem;
 }
 
+section#tabs .tabs-column-1 .tab-4 div.icon{
+    background-color: #3DB0FD;
+    width: 1rem;
+    height: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+section#tabs .tabs-column-1 .tab-4 i{
+    margin-left: -1rem;
+    margin-top: 0.4rem;
+    color: #ffffff;
+}
+/* @media screen and (max-width: 1440px){
+    section#landing ul{
+        width: 12.3rem;
+        height: 23.5rem;
+    }
+    
+    section#landing ul li{
+        line-height: 1.95rem;   
+    }
+
+    section#landing div.showcase img.center{
+        width: 40.8rem;
+        height: 23.5rem;
+    }
+    
+    section#landing div.showcase div> img.side-gif1{
+        width: 14rem;
+        height: 11.6rem;
+    }
+    
+    section#landing div.showcase div> img.side-gif2{
+        width: 14rem;
+        height: 11.6rem;
+    }
+    section#tabs .tabs-column-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    section#tabs .tabs-column-1 .tab-1 i{
+        margin-left: -1.3rem;
+        margin-top: 0.1rem;
+        color: #ffffff;
+        font-size: smaller;
+    }
+    
+    section#tabs .tabs-column-1 .tab-1 div.icon{
+        width: 0.5rem;
+        height: 2.0rem;
+        margin-top: 0.5rem;
+        margin-left: -0.5rem;
+    }
+
+    section#tabs .tabs-column-1 p{
+        font-size: 0.9rem;
+        font-weight: bolder;
+        margin-top: 1.2rem;
+        padding-right: 5rem;
+    }
+
+    
+    section#tabs .tabs-column-1 .tab-1{
+        width: 15rem;
+        height: 3.5rem;
+        font-size: 1.2rem;
+        
+    }
+    
+    section#tabs .tabs-column-1 .tab-2{
+        display: flex;
+        background: #ffffff;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        width: 20%;
+    }
+    
+    section#tabs .tabs-column-1 .tab-3{
+        display: flex;
+        background: #ffffff;
+        justify-content: space-between;
+        width: 20%;
+    
+        
+    }
+    
+    section#tabs .tabs-column-1 .tab-4{
+        display: flex;
+        background: #ffffff;
+        justify-content: space-between;
+        width: 20%;
+    }
+    
+} */
 
 @media screen and (max-width: 786px) {
     #topbar, #topmenu{
