@@ -419,7 +419,7 @@ section#tabs .tabs-column-1 .tab-4 i{
         opacity: 0.5;
     }    
 
-    ul.header-menu{
+    body ul.header-menu{
         display: block;
         position: absolute;
         top: 25px;
@@ -435,11 +435,11 @@ section#tabs .tabs-column-1 .tab-4 i{
         transition: transform 0.5s ease-in-out;
         z-index: 99;
     }
-    ul.header-menu.show{
+    body ul.header-menu.show{
         transform: translateX(-0px);
     }
 
-    ul.header-menu p{
+    body ul.header-menu p{
         border-top: #cccc solid 1px;
         width: 95%;
     }
