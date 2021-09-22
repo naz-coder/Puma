@@ -451,7 +451,7 @@ section#tabs .tabs-column-1 .tab-4 i{
     section#head{
         box-shadow: none;
         width: 100vw;
-        height: 30vh;
+        height: 6rem;
         margin-left: -100px;
         margin-top: -6rem; 
         position: fixed;   
