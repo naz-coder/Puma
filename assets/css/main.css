@@ -322,6 +322,17 @@ section#tabs .tabs-column-1 .tab-4 i{
     margin-top: 0.4rem;
     color: #ffffff;
 }
+
+section#tabs .tabs-column-2{
+    display: none;
+}
+
+/* section#tabs .tabs-column-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+} */
+
 /* @media screen and (max-width: 1440px){
     section#landing ul{
         width: 12.3rem;
@@ -530,7 +541,6 @@ section#tabs .tabs-column-1 .tab-4 i{
     section#landing div.showcase div> img.side-gif2{
         display: none;
     }
-----------------------------------------------
     section#tabs .tabs-column-1{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -546,7 +556,7 @@ section#tabs .tabs-column-1 .tab-4 i{
     
     section#tabs .tabs-column-1 .tab-1{
         border-radius: 0.3rem;
-        width: 10rem;
+        width: 20rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background: #ffffff;
@@ -572,7 +582,7 @@ section#tabs .tabs-column-1 .tab-4 i{
     
     section#tabs .tabs-column-1 .tab-2{
         border-radius: 0.3rem;
-        width: 10rem;
+        width: 20rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background: #ffffff;
@@ -598,7 +608,7 @@ section#tabs .tabs-column-1 .tab-4 i{
     
     section#tabs .tabs-column-1 .tab-3{
         border-radius: 0.3rem;
-        width: 10rem;
+        width: 20rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background: #ffffff;
@@ -624,7 +634,7 @@ section#tabs .tabs-column-1 .tab-4 i{
     
     section#tabs .tabs-column-1 .tab-4{
         border-radius: 0.3rem;
-        width: 10rem;
+        width: 20rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background: #ffffff;
@@ -646,6 +656,120 @@ section#tabs .tabs-column-1 .tab-4 i{
         margin-left: -1rem;
         margin-top: 0.4rem;
         color: #ffffff;
-    }  
+    }
+    
+    section#tabs .tabs-column-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+    
+    section#tabs .tabs-column-2 p{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-right: 1rem;    
+    }
+    
+    section#tabs .tabs-column-2 .tab-5{
+        border-radius: 0.3rem;
+        width: 20rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #ffffff;
+        font-size: 1.2rem;
+    }
+    
+    section#tabs .tabs-column-2 .tab-5 div.icon{
+        background-color: #0040CE;
+        width: 1rem;
+        height: 2.5rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        border-radius: 5rem 5rem 5rem 5rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    section#tabs .tabs-column-2 .tab-5 i{
+        margin-left: -1rem;
+        margin-top: 0.4rem;
+        color: #ffffff;
+    }
+    
+    section#tabs .tabs-column-2 .tab-6{
+        border-radius: 0.3rem;
+        width: 20rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #ffffff;
+        font-size: 1.2rem;
+    }
+    
+    section#tabs .tabs-column-2 .tab-6 div.icon{
+        background-color: #0040CE;
+        width: 1rem;
+        height: 2.5rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        border-radius: 5rem 5rem 5rem 5rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    section#tabs .tabs-column-2 .tab-6 i{
+        margin-left: -1rem;
+        margin-top: 0.4rem;
+        color: #ffffff;
+
+    }section#tabs .tabs-column-2 .tab-7{
+        border-radius: 0.3rem;
+        width: 20rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #ffffff;
+        font-size: 1.2rem;
+    }
+    
+    section#tabs .tabs-column-2 .tab-7 div.icon{
+        background-color: #0040CE;
+        width: 1rem;
+        height: 2.5rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        border-radius: 5rem 5rem 5rem 5rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    section#tabs .tabs-column-2 .tab-7 i{
+        margin-left: -1rem;
+        margin-top: 0.4rem;
+        color: #ffffff;
+
+    }section#tabs .tabs-column-2 .tab-8{
+        border-radius: 0.3rem;
+        width: 20rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: #ffffff;
+        font-size: 1.2rem;
+    }
+    
+    section#tabs .tabs-column-2 .tab-8 div.icon{
+        background-color: #0040CE;
+        width: 1rem;
+        height: 2.5rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        border-radius: 5rem 5rem 5rem 5rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    section#tabs .tabs-column-2 .tab-8 i{
+        margin-left: -1rem;
+        margin-top: 0.4rem;
+        color: #ffffff;
+    }
 }
   
