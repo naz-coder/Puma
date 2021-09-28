@@ -195,13 +195,13 @@ section#landing div.showcase img.center{
 }
 
 section#landing div.showcase div> img.side-gif1{
-    width: 14rem;
+    width: 14.9rem;
     height: 13.5rem;
     border-radius: 0.3rem;
 }
 
 section#landing div.showcase div> img.side-gif2{
-    width: 14rem;
+    width: 14.9rem;
     height: 13.5rem;
     border-radius: 0.3rem;
 }
@@ -529,7 +529,7 @@ section#tabs .tabs-column-2{
     }
     section#landing div.showcase img.center{
         margin-left: -6.5rem;
-        width: 20rem;
+        width: 100vw;
         height: 8rem;
         border-radius: 0.3rem;
     }
@@ -541,235 +541,236 @@ section#tabs .tabs-column-2{
     section#landing div.showcase div> img.side-gif2{
         display: none;
     }
+    
     section#tabs .tabs-column-1{
+        margin-left: -6.4rem;
         display: grid;
+        grid-gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        justify-content: space-between;
+        background-color: #ffffff;
     }
     
     section#tabs .tabs-column-1 p{
-        font-size: 1.2rem;
+        font-size: 0.45rem;
         font-weight: bold;
         margin-right: 1rem;
-    
+        padding-left: 0rem;
+        margin-left: 1rem;
+        text-align: center;
+        line-height: 0.5rem;
     }
     
     section#tabs .tabs-column-1 .tab-1{
-        border-radius: 0.3rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background: #ffffff;
-        font-size: 1.2rem;
+        display: table-column;
+        font-size: 0.7rem;
+        line-height: 0.2rem;
+        width: 4.27rem; 
+        border-radius: 0rem;
     }
     
     section#tabs .tabs-column-1 .tab-1 div.icon{
-        background-color: #0040CE;
-        width: 1rem;
-        height: 2.5rem;
+        width: 0.2rem;
+        height: 1.7rem;
         padding-left: 2rem;
         padding-top: 0.5rem;
-        border-radius: 5rem 5rem 5rem 5rem;
-        margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
     
     section#tabs .tabs-column-1 .tab-1 i{
-        margin-left: -1rem;
-        margin-top: 0.4rem;
-        color: #ffffff;
+        margin-left: -1.3rem;
+        margin-top: 0.3rem;
     }
-    
+
     section#tabs .tabs-column-1 .tab-2{
-        border-radius: 0.3rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background: #ffffff;
-        font-size: 1.2rem;
+        display: table-column;
+        font-size: 0.7rem;
+        line-height: 0.2rem;
+        width: 4.27rem; 
+        border-radius: 0rem;
     }
     
     section#tabs .tabs-column-1 .tab-2 div.icon{
-        background-color: #d2d2d4;
-        width: 1rem;
-        height: 2.5rem;
+        width: 0.2rem;
+        height: 1.7rem;
         padding-left: 2rem;
         padding-top: 0.5rem;
-        border-radius: 5rem 5rem 5rem 5rem;
-        margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
     
     section#tabs .tabs-column-1 .tab-2 i{
-        margin-left: -1rem;
-        margin-top: 0.4rem;
-        color: #276076;
+        margin-left: -1.3rem;
+        margin-top: 0.3rem;
     }
-    
+
     section#tabs .tabs-column-1 .tab-3{
-        border-radius: 0.3rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background: #ffffff;
-        font-size: 1.2rem;
+        display: table-column;
+        font-size: 0.7rem;
+        line-height: 0.2rem;
+        width: 4.27rem; 
+        border-radius: 0rem;
     }
     
     section#tabs .tabs-column-1 .tab-3 div.icon{
-        background-color: #FF9900;
-        width: 1rem;
-        height: 2.5rem;
+        width: 0.2rem;
+        height: 1.7rem;
         padding-left: 2rem;
         padding-top: 0.5rem;
-        border-radius: 5rem 5rem 5rem 5rem;
-        margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
     
     section#tabs .tabs-column-1 .tab-3 i{
-        margin-left: -1rem;
-        margin-top: 0.4rem;
-        color: #ffffff;
+        margin-left: -1.3rem;
+        margin-top: 0.3rem;
     }
-    
+
     section#tabs .tabs-column-1 .tab-4{
-        border-radius: 0.3rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background: #ffffff;
-        font-size: 1.2rem;
+        display: table-column;
+        font-size: 0.7rem;
+        line-height: 0.2rem;
+        width: 4.27rem; 
+        border-radius: 0rem;
     }
     
     section#tabs .tabs-column-1 .tab-4 div.icon{
-        background-color: #3DB0FD;
-        width: 1rem;
-        height: 2.5rem;
+        width: 0.2rem;
+        height: 1.7rem;
         padding-left: 2rem;
         padding-top: 0.5rem;
-        border-radius: 5rem 5rem 5rem 5rem;
-        margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
     
     section#tabs .tabs-column-1 .tab-4 i{
-        margin-left: -1rem;
-        margin-top: 0.4rem;
-        color: #ffffff;
+        margin-left: -1.3rem;
+        margin-top: 0.3rem;
     }
     
     section#tabs .tabs-column-2{
+        margin-left: -6.4rem;
         display: grid;
+        grid-gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        justify-content: space-between;
+        background-color: #ffffff;
     }
     
     section#tabs .tabs-column-2 p{
-        font-size: 1.2rem;
+        font-size: 0.45rem;
         font-weight: bold;
-        margin-right: 1rem;    
+        margin-right: 1rem;
+        padding-left: 0rem;
+        margin-left: 1rem;
+        text-align: center;
+        line-height: 0.5rem;
     }
-    
+ 
     section#tabs .tabs-column-2 .tab-5{
-        border-radius: 0.3rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: table-column;
+        line-height: 0.2rem;
+        width: 4.27rem; 
         background: #ffffff;
         font-size: 1.2rem;
     }
     
     section#tabs .tabs-column-2 .tab-5 div.icon{
-        background-color: #0040CE;
-        width: 1rem;
-        height: 2.5rem;
+        background-color: #d2d2d4;
+        width: 0.2rem;
+        height: 1.7rem;
         padding-left: 2rem;
         padding-top: 0.5rem;
         border-radius: 5rem 5rem 5rem 5rem;
         margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
     }
     
     section#tabs .tabs-column-2 .tab-5 i{
-        margin-left: -1rem;
-        margin-top: 0.4rem;
-        color: #ffffff;
+        margin-left: -1.3rem;
+        margin-top: 0.3rem;
+        font-size: 0.7rem;
+        color: #2B175D;
     }
     
     section#tabs .tabs-column-2 .tab-6{
-        border-radius: 0.3rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: table-column;
+        font-size: 1.2rem;
+        line-height: 0.2rem;
+        width: 4.27rem; 
         background: #ffffff;
         font-size: 1.2rem;
     }
     
     section#tabs .tabs-column-2 .tab-6 div.icon{
-        background-color: #0040CE;
-        width: 1rem;
-        height: 2.5rem;
+        background-color: #d2d2d4;
+        width: 0.2rem;
+        height: 1.7rem;
         padding-left: 2rem;
         padding-top: 0.5rem;
         border-radius: 5rem 5rem 5rem 5rem;
         margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
     }
     
     section#tabs .tabs-column-2 .tab-6 i{
-        margin-left: -1rem;
-        margin-top: 0.4rem;
-        color: #ffffff;
+        margin-left: -1.3rem;
+        margin-top: 0.3rem;
+        font-size: 0.7rem;
+        color: #ff0000;
 
-    }section#tabs .tabs-column-2 .tab-7{
-        border-radius: 0.3rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    }
+    section#tabs .tabs-column-2 .tab-7{
+        display: table-column;
+        font-size: 0.7rem;
+        line-height: 0.2rem;
+        width: 4.27rem; 
         background: #ffffff;
         font-size: 1.2rem;
     }
-    
+        
     section#tabs .tabs-column-2 .tab-7 div.icon{
-        background-color: #0040CE;
-        width: 1rem;
-        height: 2.5rem;
+        background-color: #d2d2d4;
+        width: 0.2rem;
+        height: 1.7rem;
         padding-left: 2rem;
         padding-top: 0.5rem;
         border-radius: 5rem 5rem 5rem 5rem;
         margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
     }
-    
+        
     section#tabs .tabs-column-2 .tab-7 i{
-        margin-left: -1rem;
-        margin-top: 0.4rem;
-        color: #ffffff;
-
-    }section#tabs .tabs-column-2 .tab-8{
-        border-radius: 0.3rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        margin-left: -1.3rem;
+        margin-top: 0.3rem;
+        font-size: 0.7rem;
+        color: #447624;
+    }
+   
+    section#tabs .tabs-column-2 .tab-8{
+        display: table-column;
+        font-size: 0.7rem;
+        line-height: 0.2rem;
+        width: 4.27rem; 
         background: #ffffff;
         font-size: 1.2rem;
     }
-    
+        
     section#tabs .tabs-column-2 .tab-8 div.icon{
-        background-color: #0040CE;
-        width: 1rem;
-        height: 2.5rem;
+        background-color: #d2d2d4;
+        width: 0.2rem;
+        height: 1.7rem;
         padding-left: 2rem;
         padding-top: 0.5rem;
         border-radius: 5rem 5rem 5rem 5rem;
         margin-top: 0.5rem;
-        margin-left: 0.5rem;
+        margin-left: 1rem;
     }
-    
+        
     section#tabs .tabs-column-2 .tab-8 i{
-        margin-left: -1rem;
-        margin-top: 0.4rem;
-        color: #ffffff;
+        margin-left: -1.3rem;
+        margin-top: 0.3rem;
+        font-size: 0.7rem;
+        color: #FF9900;
     }
 }
   
