@@ -327,12 +327,43 @@ section#tabs .tabs-column-2{
     display: none;
 }
 
-/* section#tabs .tabs-column-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-} */
+/* top-selling items*/
+    section#top-selling {
+        border-radius: 0.3rem;
+        background-color: #ffffff;
+    }
 
+    section#top-selling h3{
+        padding-left: 1.5rem;
+        padding-top: 1.5rem;
+        font-size:  1.3rem;
+    }
+    section#top-selling div.top{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    section#top-selling div.top div.sneakers{
+        padding-left: 0.5rem;
+    }
+    section#top-selling div.top img{
+        width: 13vw;
+        border-radius: 0.3rem;
+    }
+
+    section#top-selling div.top p{
+       line-height: 0.5rem;
+    }
+
+    section#top-selling div.top p:nth-of-type(even){
+        font-weight: 900;
+    }
+
+    section#top-selling div.top strike{
+        font-size: 0.8rem;
+        color: #8f8f9c;
+    }
+ 
+ 
 /* @media screen and (max-width: 1440px){
     section#landing ul{
         width: 12.3rem;
@@ -439,8 +470,8 @@ section#tabs .tabs-column-2{
         word-spacing: 0.1rem;
         line-height: 1.5rem;
         background: #ffffff;
-        width: 90%;
-        height: 250%;
+        width: 90vw;
+        height: 145vh;
         border-right: #ccc 1px solid;
         transform: translateX(-500px);
         transition: transform 0.5s ease-in-out;
@@ -529,8 +560,9 @@ section#tabs .tabs-column-2{
     }
     section#landing div.showcase img.center{
         margin-left: -6.5rem;
+        margin-top: 0.3rem;
         width: 100vw;
-        height: 8rem;
+        height: 10rem;
         border-radius: 0.3rem;
     }
     
@@ -541,12 +573,16 @@ section#tabs .tabs-column-2{
     section#landing div.showcase div> img.side-gif2{
         display: none;
     }
-    
+
+    /* tabs */
     section#tabs .tabs-column-1{
         margin-left: -6.4rem;
+        margin-top: 0.3rem;
         display: grid;
         grid-gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100vw;
+        height: 5rem;
         background-color: #ffffff;
     }
     
@@ -653,6 +689,8 @@ section#tabs .tabs-column-2{
         display: grid;
         grid-gap: 1rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100vw;
+        height: 5rem;
         background-color: #ffffff;
     }
     
@@ -772,5 +810,40 @@ section#tabs .tabs-column-2{
         font-size: 0.7rem;
         color: #FF9900;
     }
+
+    /* top-selling items*/
+    section#top-selling {
+        margin-left: -6.5rem;
+        margin-top: -0.4rem;
+        border-radius: 0rem;
+        width: 100vw;
+    }
+
+    section#top-selling h3{
+        padding-left: 0.9rem;
+        padding-top: 0.6rem;
+        font-size:  0.8rem;
+    }
+    section#top-selling div.top{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section#top-selling div.top div.show-on-large{
+        display: none;
+    }
+
+    section#top-selling div.top img{
+        width: 25vw;
+        border-radius: 0.3rem;
+    }
+
+    section#top-selling div.top p{
+        font-size: 0.6rem;
+    }
+
+    section#top-selling div.top strike{
+        display: none;
+    }
+
 }
   
