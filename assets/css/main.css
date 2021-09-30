@@ -363,7 +363,46 @@ section#tabs .tabs-column-2{
         color: #8f8f9c;
     }
  
- 
+    /* defacto deals*/
+    section#deacto-deals div.defacto {
+        margin-bottom: 1rem;
+        border-radius: 0.3rem;
+        background-color: #ffffff;
+    }
+
+    section#deacto-deals div.defacto div.defacto-a{
+        border-radius: 0.3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section#deacto-deals div.defacto img{
+        border-radius: 0.3rem;
+        width: 42.5vw;
+    }
+
+    section#deacto-deals div.defacto div.defacto-img{
+        padding-left: 0.5rem;
+    }
+
+    section#deacto-deals div.defacto div.end{
+        padding-left: 0.3rem;
+        padding-bottom: 0.4rem;
+    }
+
+    section#deacto-deals div.defacto h3{
+        padding-top: 1.5rem;
+        text-align: center;
+        font-size:  1.3rem;
+    }
+
+    section#deacto-deals div.defacto div.defacto-b{
+        padding-top: 0.5rem;
+        border-radius: 0.3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 /* @media screen and (max-width: 1440px){
     section#landing ul{
         width: 12.3rem;
@@ -845,5 +884,45 @@ section#tabs .tabs-column-2{
         display: none;
     }
 
+    /* defacto deals*/
+    section#deacto-deals div.defacto {
+        margin-left: -6.5rem;
+        margin-top: -0.4rem;
+        border-radius: 0rem;
+        width: 100vw;
+    }
+
+    section#deacto-deals div.defacto div.defacto-a{
+        border-radius: 0.3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section#deacto-deals div.defacto img{
+        width: 47vw;
+        height: 18vh;
+    }
+
+    section#deacto-deals div.defacto div.defacto-img{
+        padding-left: 0.5rem;
+    }
+
+    section#deacto-deals div.defacto div.end{
+        padding-left: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+
+    section#deacto-deals div.defacto h3{
+        padding-top: 0.8rem;
+        font-size:  0.8rem;
+    }
+
+    section#deacto-deals div.defacto div.defacto-b{
+        padding-top: 0.5rem;
+        border-radius: 0.3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
   
