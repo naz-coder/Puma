@@ -328,80 +328,129 @@ section#tabs .tabs-column-2{
 }
 
 /* top-selling items*/
-    section#top-selling {
-        border-radius: 0.3rem;
-        background-color: #ffffff;
-    }
+section#top-selling {
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
 
-    section#top-selling h3{
-        padding-left: 1.5rem;
-        padding-top: 1.5rem;
-        font-size:  1.3rem;
-    }
-    section#top-selling div.top{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-    section#top-selling div.top div.sneakers{
-        padding-left: 0.5rem;
-    }
-    section#top-selling div.top img{
-        width: 13vw;
-        border-radius: 0.3rem;
-    }
+section#top-selling h3{
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    font-size:  1.3rem;
+}
+section#top-selling div.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+section#top-selling div.top div.sneakers{
+    padding-left: 0.5rem;
+}
+section#top-selling div.top img{
+    width: 13vw;
+    border-radius: 0.3rem;
+}
 
-    section#top-selling div.top p{
-       line-height: 0.5rem;
-    }
+section#top-selling div.top p{
+    line-height: 0.5rem;
+}
 
-    section#top-selling div.top p:nth-of-type(even){
-        font-weight: 900;
-    }
+section#top-selling div.top p:nth-of-type(even){
+    font-weight: 900;
+}
 
-    section#top-selling div.top strike{
-        font-size: 0.8rem;
-        color: #8f8f9c;
-    }
+section#top-selling div.top strike{
+    font-size: 0.8rem;
+    color: #8f8f9c;
+}
  
-    /* defacto deals*/
-    section#deacto-deals div.defacto {
-        margin-bottom: 1rem;
-        border-radius: 0.3rem;
-        background-color: #ffffff;
-    }
+/* defacto deals*/
+section#deacto-deals div.defacto {
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
 
-    section#deacto-deals div.defacto div.defacto-a{
-        border-radius: 0.3rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+section#deacto-deals div.defacto div.defacto-a{
+    border-radius: 0.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-    section#deacto-deals div.defacto img{
-        border-radius: 0.3rem;
-        width: 42.5vw;
-    }
+section#deacto-deals div.defacto img{
+    border-radius: 0.3rem;
+    width: 42.5vw;
+}
 
-    section#deacto-deals div.defacto div.defacto-img{
-        padding-left: 0.5rem;
-    }
+section#deacto-deals div.defacto div.defacto-img{
+    padding-left: 0.5rem;
+}
 
-    section#deacto-deals div.defacto div.end{
-        padding-left: 0.3rem;
-        padding-bottom: 0.4rem;
-    }
+section#deacto-deals div.defacto div.end{
+    padding-left: 0.3rem;
+    padding-bottom: 0.4rem;
+}
 
-    section#deacto-deals div.defacto h3{
-        padding-top: 1.5rem;
-        text-align: center;
-        font-size:  1.3rem;
-    }
+section#deacto-deals div.defacto h3{
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size:  1.3rem;
+}
 
-    section#deacto-deals div.defacto div.defacto-b{
-        padding-top: 0.5rem;
-        border-radius: 0.3rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+section#deacto-deals div.defacto div.defacto-b{
+    padding-top: 0.5rem;
+    border-radius: 0.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* nike*/
+section#nike {
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
+
+section#nike h3{
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    font-size:  1.3rem;
+}
+section#nike div.nike-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+    /* section#nike div.nike-items div.slippers:hover{
+        -webkit-box-shadow: 0 8px 6px -6px #ccc;
+        -moz-box-shadow: 0 8px 6px -6px #ccc;
+        box-shadow: 8px 8px 6px -6px #ccc;
+    } */
+
+section#nike div.nike-items div.slippers{
+    padding-left: 0.5rem;
+}
+section#nike div.nike-items img{
+    width: 13vw;
+    border-radius: 0.3rem;
+}
+
+section#nike div.nike-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+section#nike p{
+    line-height: 0.5rem;
+}
+
+section#nike a{
+    color: #E85B31;
+}
+ 
+section#nike div.nike-items p:nth-of-type(even){
+    font-weight: 900;
+}
+
 
 /* @media screen and (max-width: 1440px){
     section#landing ul{
@@ -924,5 +973,46 @@ section#tabs .tabs-column-2{
         grid-template-columns: 1fr 1fr;
     }
     
+        /* nike*/
+    section#nike {
+        margin-left: -6.5rem;
+        margin-top: -0.4rem;
+        border-radius: 0rem;
+        width: 100vw;
+    }
+    section#nike div.nike-text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    section#nike h3{
+        padding-left: 0.9rem;
+        padding-top: 0.6rem;
+        font-size:  0.8rem;
+    }
+    section#nike div.nike-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+
+    }
+
+    /* section#nike div.nike-items div.slippers:hover{
+        -webkit-box-shadow: 0 8px 6px -6px #ccc;
+        -moz-box-shadow: 0 8px 6px -6px #ccc;
+        box-shadow: 8px 8px 6px -6px #ccc;
+    } */
+
+    section#nike div.nike-items div.show-on-large{
+        display: none;
+    }
+    section#nike div.nike-items img{
+        width: 25vw;
+        border-radius: 0.3rem;
+    }
+
+    section#nike p{
+        font-size: 0.6rem;
+    }
+
 }
   
