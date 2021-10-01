@@ -195,13 +195,13 @@ section#landing div.showcase img.center{
 }
 
 section#landing div.showcase div> img.side-gif1{
-    width: 14.9rem;
+    width: 14rem;
     height: 13.5rem;
     border-radius: 0.3rem;
 }
 
 section#landing div.showcase div> img.side-gif2{
-    width: 14.9rem;
+    width: 14rem;
     height: 13.5rem;
     border-radius: 0.3rem;
 }
@@ -299,7 +299,7 @@ section#tabs .tabs-column-1 .tab-3 i{
 
 section#tabs .tabs-column-1 .tab-4{
     border-radius: 0.3rem;
-    width: 20rem;
+    width: 20.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: #ffffff;
@@ -378,7 +378,7 @@ section#deacto-deals div.defacto div.defacto-a{
 
 section#deacto-deals div.defacto img{
     border-radius: 0.3rem;
-    width: 42.5vw;
+    width: 42vw;
 }
 
 section#deacto-deals div.defacto div.defacto-img{
