@@ -445,12 +445,119 @@ section#nike p{
 
 section#nike a{
     color: #E85B31;
+    font-weight: 900;
 }
  
 section#nike div.nike-items p:nth-of-type(even){
     font-weight: 900;
 }
 
+/* brand festival*/
+section#brand-festival {
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
+
+section#brand-festival div.festival{
+    margin-bottom: 1rem;
+    border-radius: 0.3rem 0.3rem 0rem 0rem;
+    background-color: #e61818;
+    color: #ffffff;
+}
+
+section#brand-festival div.festival{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section#brand-festival h3{
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    font-size:  1.3rem;
+}
+
+section#brand-festival a{
+    color: #ffffff;
+    font-weight: 900;
+}
+
+section#brand-festival div.brand{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+section#brand-festival div.brand div.nike{
+    padding-left: 0.5rem;
+}
+section#brand-festival div.brand img{
+    width: 13vw;
+    border-radius: 0.3rem;
+}
+
+section#brand-festival div.brand p{
+    line-height: 0.5rem;
+}
+
+section#brand-festival div.brand p:nth-of-type(even){
+    font-weight: 900;
+}
+
+section#brand-festival div.brand strike{
+    font-size: 0.8rem;
+    color: #8f8f9c;
+}
+
+/* festival-collections*/
+section#festival-collections {
+    margin-top: -0.2rem;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
+
+section#festival-collections h3{
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size:  1.3rem;
+}
+
+section#festival-collections div.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+section#festival-collections div.top div.his{
+    padding-left: 0.5rem;
+}
+
+section#festival-collections div.top img{
+    width: 13vw;
+    border-radius: 0.3rem;
+}
+
+section#festival-collections div.top p{
+    line-height: 0.5rem;
+}
+
+section#festival-collections div.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+section#festival-collections div.bottom div.computing{
+    padding-left: 0.5rem;
+}
+
+section#festival-collections div.bottom img{
+    width: 13vw;
+    border-radius: 0.3rem;
+}
+
+section#festival-collections div.bottom p{
+    line-height: 0.5rem;
+}
 
 /* @media screen and (max-width: 1440px){
     section#landing ul{
@@ -968,6 +1075,7 @@ section#nike div.nike-items p:nth-of-type(even){
 
     section#deacto-deals div.defacto div.defacto-b{
         padding-top: 0.5rem;
+        margin-top: -0.6rem;
         border-radius: 0.3rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -976,7 +1084,7 @@ section#nike div.nike-items p:nth-of-type(even){
         /* nike*/
     section#nike {
         margin-left: -6.5rem;
-        margin-top: -0.4rem;
+        margin-top: -0.6rem;
         border-radius: 0rem;
         width: 100vw;
     }
@@ -1013,6 +1121,110 @@ section#nike div.nike-items p:nth-of-type(even){
     section#nike p{
         font-size: 0.6rem;
     }
+
+        /* brand festival*/
+section#brand-festival {
+    margin-left: -6.5rem;
+    margin-top: -0.6rem;
+    border-radius: 0rem;
+    width: 100vw;
+}
+
+section#brand-festival div.festival{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0rem;
+    height: 10vh;
+    /* height: 5vh; */
+}
+
+section#brand-festival div.festival{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section#brand-festival h3{
+    padding-left: 0.9rem;
+    padding-top: 0.6rem;
+    font-size:  0.8rem;
+}
+
+section#brand-festival a{
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+
+section#brand-festival div.brand{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+section#brand-festival div.brand img{
+    width: 25vw;
+    border-radius: 0.3rem;
+}
+
+section#brand-festival div.brand div.show-on-large{
+    display: none;
+}
+ 
+section#brand-festival div.brand p{
+    font-size: 0.6rem;
+}
+
+section#brand-festival div.brand strike{
+    display: none;
+}
+
+/* festival-collections*/
+section#festival-collections {
+    margin-left: -6.5rem;
+    margin-top: -0.4rem;
+    border-radius: 0rem;
+    width: 100vw;
+}
+
+section#festival-collections h3{
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size:  0.8rem;
+}
+
+section#festival-collections div.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+section#festival-collections div.top div.his{
+    padding-left: 0rem;
+}
+
+section#festival-collections img{
+    width: 24vw;
+    border-radius: 0.3rem;
+}
+
+section#festival-collections p{
+    font-size: 0.6rem;
+}
+
+section#festival-collections div.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section#festival-collections div.bottom div.computing{
+    padding-left: 0rem;
+}
+
+section#festival-collections div.show-on-large{
+    display: none;
+}
+
+
 
 }
   
