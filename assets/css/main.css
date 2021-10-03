@@ -559,6 +559,82 @@ section#festival-collections div.bottom p{
     line-height: 0.5rem;
 }
 
+section#more-festival-collections{
+    display: none;
+}
+
+/* defacto deals-2*/
+section#defacto-deals-2 div.defacto-2 {
+    margin-top: 1rem;
+    padding-top: 0.6rem;
+    border-radius: 0.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+}
+
+section#defacto-deals-2 div.defacto-2 img{
+    border-radius: 0.3rem;
+    width: 42vw;
+}
+
+section#defacto-deals-2 div.defacto-2 div.defacto-img{
+    padding-left: 0.5rem;
+}
+
+section#defacto-deals-2 div.defacto-2 div.end{
+    padding-left: 0.3rem;
+    padding-bottom: 0.4rem;
+}
+
+/* defacto deals-3*/
+section#defacto-deals-2 div.defacto-3 {
+    margin-top: 1rem;
+    padding-top: 0.6rem;
+    border-radius: 0.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+}
+
+section#defacto-deals-2 div.defacto-3 img{
+    border-radius: 0.3rem;
+    width: 42vw;
+}
+
+section#defacto-deals-2 div.defacto-3 div.defacto-img{
+    padding-left: 0.5rem;
+}
+
+section#defacto-deals-2 div.defacto-3 div.end{
+    padding-left: 0.3rem;
+    padding-bottom: 0.4rem;
+}
+
+section#defacto-deals-2 div.defacto-3{
+    padding-top: 0.5rem;
+    border-radius: 0.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* defacto deals-4*/
+section#defacto-deals-3 div.defacto-4 {
+    margin-top: 1rem;
+    padding-top: 0.6rem;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
+
+section#defacto-deals-3 div.defacto-4 img{
+    width: 84.5vw;
+    padding-left: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+
+
+
 /* @media screen and (max-width: 1440px){
     section#landing ul{
         width: 12.3rem;
@@ -1224,7 +1300,86 @@ section#festival-collections div.show-on-large{
     display: none;
 }
 
+/* more-festival-collections*/
+section#more-festival-collections {
+    margin-left: -6.5rem;
+    margin-top: -0.4rem;
+    border-radius: 0rem;
+    width: 100vw;
+    background-color: #ffffff;
+    line-height: 0.1rem;
+}
 
+section#more-festival-collections h3{
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    font-size:  0.8rem;
+}
+
+section#more-festival-collections div.more-festival{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+section#more-festival-collections div.more-festival div.supermarket{
+    padding-left: 0rem;
+}
+
+section#more-festival-collections img{
+    width: 24vw;
+    border-radius: 0.3rem;
+}
+
+section#more-festival-collections p{
+    font-size: 0.6rem;
+}
+
+    /* defacto deals-2*/
+    section#defacto-deals-2 div.defacto-2 {
+        margin-left: -6.5rem;
+        border-radius: 0rem;
+        margin-top: 0.4rem;
+        padding-top: 0.5rem;
+        width: 100vw;
+    }
+
+    section#defacto-deals-2 div.defacto-2 img{
+        width: 47vw;
+        height: 18vh;
+    }
+
+    section#defacto-deals-2 div.defacto-2 div.defacto-img{
+        padding-left: 0.5rem;
+    }
+
+    section#defacto-deals-2 div.defacto-2 div.end{
+        padding-left: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+
+    /* defacto deals-3*/
+section#defacto-deals-2 div.defacto-3 {
+    display: none;
+}
+
+/* defacto deals-4*/
+section#defacto-deals-3 div.defacto-4 {
+    margin-left: -6.5rem;
+    border-radius: 0rem;
+    margin-top: 0.4rem;
+    padding-top: 0.5rem;
+    width: 100vw;
+}
+
+section#defacto-deals-3 div.defacto-4 img{
+    width: 94.5vw;
+    height: 18vh;
+}
+
+section#defacto-deals-3 div.defacto-4 div.defacto-img{
+    padding-left: -0.2rem;
+}
 
 }
   
