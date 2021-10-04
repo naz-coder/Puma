@@ -173,7 +173,7 @@ section#landing ul{
     border-radius: 0.3rem;
     margin-top: 0.0rem;
     margin-left: 0.1rem;
-    width: 15rem;
+    width: 15vw;
 }
 
 section#landing ul li{
@@ -189,20 +189,20 @@ section#landing div.showcase{
 }
 
 section#landing div.showcase img.center{
-    width: 47.5rem;
-    height: 27.5rem;
+    width: 50.8vw;
+    height: 60.5vh;
     border-radius: 0.3rem;
 }
 
 section#landing div.showcase div> img.side-gif1{
-    width: 14rem;
-    height: 13.5rem;
+    width: 16vw;
+    height: 29.9vh;
     border-radius: 0.3rem;
 }
 
 section#landing div.showcase div> img.side-gif2{
-    width: 14rem;
-    height: 13.5rem;
+    width: 16vw;
+    height: 29.9vh;
     border-radius: 0.3rem;
 }
 
@@ -221,7 +221,7 @@ section#tabs .tabs-column-1 p{
 
 section#tabs .tabs-column-1 .tab-1{
     border-radius: 0.3rem;
-    width: 20rem;
+    width: 21vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: #ffffff;
@@ -247,7 +247,7 @@ section#tabs .tabs-column-1 .tab-1 i{
 
 section#tabs .tabs-column-1 .tab-2{
     border-radius: 0.3rem;
-    width: 20rem;
+    width: 21vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: #ffffff;
@@ -273,7 +273,7 @@ section#tabs .tabs-column-1 .tab-2 i{
 
 section#tabs .tabs-column-1 .tab-3{
     border-radius: 0.3rem;
-    width: 20rem;
+    width: 21vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: #ffffff;
@@ -299,7 +299,7 @@ section#tabs .tabs-column-1 .tab-3 i{
 
 section#tabs .tabs-column-1 .tab-4{
     border-radius: 0.3rem;
-    width: 20.5rem;
+    width: 21.5vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: #ffffff;
@@ -378,7 +378,7 @@ section#deacto-deals div.defacto div.defacto-a{
 
 section#deacto-deals div.defacto img{
     border-radius: 0.3rem;
-    width: 42vw;
+    width: 42.5vw;
 }
 
 section#deacto-deals div.defacto div.defacto-img{
@@ -575,7 +575,7 @@ section#defacto-deals-2 div.defacto-2 {
 
 section#defacto-deals-2 div.defacto-2 img{
     border-radius: 0.3rem;
-    width: 42vw;
+    width: 42.5vw;
 }
 
 section#defacto-deals-2 div.defacto-2 div.defacto-img{
@@ -599,7 +599,7 @@ section#defacto-deals-2 div.defacto-3 {
 
 section#defacto-deals-2 div.defacto-3 img{
     border-radius: 0.3rem;
-    width: 42vw;
+    width: 42.5vw;
 }
 
 section#defacto-deals-2 div.defacto-3 div.defacto-img{
@@ -627,12 +627,10 @@ section#defacto-deals-3 div.defacto-4 {
 }
 
 section#defacto-deals-3 div.defacto-4 img{
-    width: 84.5vw;
-    padding-left: 0.7rem;
+    width: 85.5vw;
+    padding-left: 0.6rem;
     border-radius: 0.3rem;
 }
-
-
 
 
 /* @media screen and (max-width: 1440px){
@@ -1300,6 +1298,7 @@ section#festival-collections div.show-on-large{
     display: none;
 }
 
+<<<<<<< HEAD
 /* more-festival-collections*/
 section#more-festival-collections {
     margin-left: -6.5rem;
@@ -1380,6 +1379,9 @@ section#defacto-deals-3 div.defacto-4 img{
 section#defacto-deals-3 div.defacto-4 div.defacto-img{
     padding-left: -0.2rem;
 }
+=======
+
+>>>>>>> 834b7b9c86dc21d4b5b5d22c9d1e63c2c3fd41eb
 
 }
   
