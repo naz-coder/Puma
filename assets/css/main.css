@@ -632,6 +632,65 @@ section#defacto-deals-3 div.defacto-4 img{
     border-radius: 0.3rem;
 }
 
+/* brand-partners*/
+section#brand-partners {
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
+
+section#brand-partners div.partners{
+    margin-bottom: 1rem;
+    border-radius: 0.3rem 0.3rem 0rem 0rem;
+    background-color: #B5DE93;
+    color: #000000;
+}
+
+section#brand-partners h3{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size:  1.3rem;
+    text-align: center;
+}
+
+section#brand-partners div.brand{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+section#brand-partners div.brand div.samsung{
+    padding-left: 0.3rem;
+}
+section#brand-partners div.brand img{
+    width: 14.2vw;
+    border-radius: 0.3rem;
+}
+
+/* pumia force*/
+section#pumia-force div.force {
+    margin-top: 1rem;
+    padding-top: 0.6rem;
+    border-radius: 0.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+}
+
+section#pumia-force div.force img{
+    border-radius: 0.3rem;
+    width: 42.5vw;
+}
+
+section#pumia-force div.force div.force-img{
+    padding-left: 0.5rem;
+}
+
+section#pumia-force div.force div.end{
+    padding-left: 0.3rem;
+    padding-bottom: 0.4rem;
+}
+
+
+
 
 /* @media screen and (max-width: 1440px){
     section#landing ul{
@@ -1298,7 +1357,6 @@ section#festival-collections div.show-on-large{
     display: none;
 }
 
-<<<<<<< HEAD
 /* more-festival-collections*/
 section#more-festival-collections {
     margin-left: -6.5rem;
@@ -1379,9 +1437,61 @@ section#defacto-deals-3 div.defacto-4 img{
 section#defacto-deals-3 div.defacto-4 div.defacto-img{
     padding-left: -0.2rem;
 }
-=======
 
->>>>>>> 834b7b9c86dc21d4b5b5d22c9d1e63c2c3fd41eb
 
+/* brand-partners*/
+section#brand-partners {
+    margin-left: -6.5rem;
+    margin-top: -0.6rem;
+    border-radius: 0rem;
+    width: 100vw;
+}
+
+section#brand-partners div.partners{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0rem;
+    height: 3.5vh;
+}
+
+section#brand-partners h3{
+    padding-top: 0.1rem;
+    font-size:  0.7rem;
+}
+
+section#brand-partners div.brand{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+section#brand-partners div.brand img{
+    width: 24vw;
+}
+
+section#brand-partners div.brand div.show-on-large{
+    display: none;
+}
+
+/* pumia force*/
+section#pumia-force div.force {
+    margin-left: -6.5rem;
+    border-radius: 0rem;
+    margin-top: 0.4rem;
+    padding-top: 0.5rem;
+    width: 100vw;
+}
+
+section#pumia-force div.force img{
+    width: 47vw;
+    height: 18vh;
+}
+
+section#pumia-force div.force div.force-img{
+    padding-left: 0.5rem;
+}
+
+section#pumia-force div.force div.end{
+    padding-left: 0.3rem;
+    padding-bottom: 0.3rem;
+}
 }
   
