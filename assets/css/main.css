@@ -689,7 +689,69 @@ section#pumia-force div.force div.end{
     padding-bottom: 0.4rem;
 }
 
+/* featured-categories*/
+section#featured-categories {
+    margin-top: -0.2rem;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
 
+section#featured-categories div.featured{
+    margin-bottom: 1rem;
+    border-radius: 0.3rem 0.3rem 0rem 0rem;
+    background-color: #B5DE93;
+    color: #000000;
+
+}
+
+section#featured-categories h3{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size:  1.3rem;
+    text-align: center;
+}
+
+section#featured-categories div.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+section#featured-categories div.top div.phones{
+    padding-left: 0.5rem;
+}
+
+section#featured-categories div.top img{
+    width: 13vw;
+    border-radius: 0.3rem;
+}
+
+section#featured-categories div.top p{
+    line-height: 0.5rem;
+}
+
+section#featured-categories div.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+section#featured-categories div.bottom div.electronics{
+    padding-left: 0.5rem;
+}
+
+section#featured-categories div.bottom img{
+    width: 13vw;
+    border-radius: 0.3rem;
+}
+
+section#featured-categories div.bottom p{
+    line-height: 0.5rem;
+}
+
+section#more-featured-categories{
+    display: none;
+}
 
 
 /* @media screen and (max-width: 1440px){
@@ -1493,5 +1555,109 @@ section#pumia-force div.force div.end{
     padding-left: 0.3rem;
     padding-bottom: 0.3rem;
 }
+
+/* featured-categories*/
+section#featured-categories {
+    margin-left: -6.5rem;
+    margin-top: -0.4rem;
+    border-radius: 0rem;
+    width: 100vw;
+}
+
+section#featured-categories div.featured{
+    margin-top: -0.6rem;
+    border-radius: 0rem;
+    height: 3.5vh;
+}
+
+section#featured-categories h3{
+    padding-top: 0.1rem;
+    font-size:  0.7rem;
+}
+
+section#featured-categories div.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+section#featured-categories div.top div.phones{
+    padding-left: 0rem;
+}
+
+section#featured-categories img{
+    width: 24vw;
+    border-radius: 0.3rem;
+}
+
+section#featured-categories p{
+    font-size: 0.6rem;
+}
+
+section#featured-categories div.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section#featured-categories div.bottom div.electronics{
+    padding-left: 0rem;
+}
+
+section#featured-categories div.show-on-large{
+    display: none;
+}
+
+/* more-featured-categories*/
+section#more-featured-categories {
+    margin-left: -6.5rem;
+    margin-top: -0.4rem;
+    border-radius: 0rem;
+    width: 100vw;
+    background-color: #ffffff;
+    line-height: 0.1rem;
+}
+
+section#more-featured-categories div.featured{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0rem;
+    height: 10vh;
+    background-color: #B5DE93;
+}
+
+section#more-featured-categories h3{
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    font-size:  0.8rem;
+}
+
+section#more-featured-categories div.more-featured{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+section#more-featured-categories div.more-featured div.baby{
+    padding-left: 0rem;
+}
+
+section#more-featured-categories img{
+    width: 24vw;
+    border-radius: 0.3rem;
+}
+
+section#more-featured-categories p{
+    font-size: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
 }
   
