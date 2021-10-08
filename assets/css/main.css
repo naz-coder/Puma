@@ -1208,6 +1208,35 @@ section#food-cupboard div.cupboard strike{
     color: #8f8f9c;
 }
 
+/* endnote */
+section#endnote{
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+section#endnote div.note{
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+section#endnote div.note h3{
+    font-size:  1.1rem;
+    font-weight: 100;
+}
+
+section#endnote div.note p{
+    font-size:  0.8rem;
+}
+
+section#endnote div.note a{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 
 /* @media screen and (max-width: 1440px){
     section#landing ul{
@@ -2559,6 +2588,28 @@ section#food-cupboard div.cupboard p{
 
 section#food-cupboard div.cupboard strike{
     display: none;
+}
+
+/* endnote */
+section#endnote {
+    margin-left: -6.5rem;
+    margin-top: 0.5rem;
+    padding-top: -10rem;
+    width: 100vw;
+}
+
+section#endnote div.note{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem; 
+}
+
+section#endnote div.note h3{
+    font-size:  1.2rem;
+    font-weight: 900;
+}
+
+section#endnote div.note p{
+    font-size: 0.6rem;
 }
 
 }
