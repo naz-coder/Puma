@@ -115,7 +115,7 @@ section#head {
     -moz-box-shadow: 0 8px 6px -6px #ccc;
     box-shadow: 0 8px 6px -6px #ccc;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 11vh;
     margin-left: -100px;
     color: #000000;
@@ -1217,9 +1217,7 @@ section#endnote{
 }
 
 section#endnote div.note{
-    padding-left: 1.5rem;
-    padding-top: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 0.7rem;
 
 }
 
@@ -1237,9 +1235,194 @@ section#endnote div.note a{
     text-decoration: underline;
 }
 
+/* footer */
+footer div.top{
+    background-color: #282828;
+    width: 100vw;
+    margin-left: -100px;
+    color: #ffffff;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10rem;
+}
 
+footer div.top div.pumia{
+    margin-left: 100px;
+    font-size: xx-large;
+    font-weight: 900;
+    
+}
+
+footer div.top div.new-to-pumia{
+    margin-left: -150px;
+}
+
+footer div.top div.new-to-pumia p{
+    font-size: 0.75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+footer div.top div.new-to-pumia p:nth-of-type(even){
+    color: #c7c7cd;
+    text-transform: none;
+    font-weight: lighter;
+}
+
+footer div.top div.new-to-pumia form input{
+    width: 21.5rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    border: 1px solid #282828;
+}
+
+footer div.top div.new-to-pumia form input:hover{
+    border: 1px solid #E4811C;
+}
+
+footer div.top div.new-to-pumia form::placeholder{
+    font-size: 0.5rem;
+    color: #c7c7cd;
+}
+
+footer div.top div.new-to-pumia form button{
+    background-color: #282828;
+    width: 5rem;
+    height: 2.3rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+footer div.top div.new-to-pumia form button:hover{
+    border: 1px solid #E4811C;
+}
+
+footer div.top div.download div.app div.icon{
+    background-color: #E4811C;
+    width: 2.8rem;
+    height: 2.3rem;
+    border-radius: 0.3rem;
+}
+
+footer div.top div.download div.app div.icon i{
+    font-size: x-large;
+    padding: 0.4rem;
+}
+
+footer div.top div.download div.app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer div.top div.download div.app p{
+    font-size: 0.75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: -9rem;
+}
+
+footer div.top div.download div.app p:nth-of-type(even){
+    color: #c7c7cd;
+    text-transform: none;
+    font-weight: lighter;
+}
+
+footer div.top div.download form button{
+    background-color: #282828;
+    width: 6.4rem;
+    height: 2.3rem;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+footer div.top div.download button:hover{
+    border: 1px solid #E4811C;
+}
+
+footer div.intermediate{
+    background-color: #323232;
+    width: 100vw;
+    margin-left: -100px;
+    color: #ffffff;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+footer div.intermediate div.help{
+    margin-left: 100px;
+    
+}
+
+footer div.intermediate p{
+    font-size: 0.75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+footer div.intermediate ul li{
+    margin-left: -2.5rem;
+    font-size: 0.6rem;
+}
+footer div.intermediate ul li a{
+    color: #c7c7cd;
+}
+
+footer div.intermediate div.international div.country{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: -10rem; */
+}
+footer div.line{
+    background-color: #323232;
+}
+/* footer div.intermediate div.international div.country div.country-2 ul li{
+    padding-left: -200rem;
+} */
+
+footer section#topmenu{
+    background-color: #323232;
+    width: 100vw;
+    margin-left: -100px;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-left: -100px;
+
+}
+footer section#topmenu nav.main-nav ul.main-menu{
+    font-size: 12px;
+    margin-left: 38rem;
+}
+section#topmenu nav.main-nav ul a{
+    color: #d2d2d4;
+}
+
+footer div.copy{
+    background-color: #323232;
+    width: 100vw;
+    margin-left: -100px;
+    color: #c7c7cd;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+
+}
+
+footer div.copy p{
+    margin-left: 44rem;
+
+
+}
 /* @media screen and (max-width: 1440px){
-    section#landing ul{
+    section#landing ul{ 
         width: 12.3rem;
         height: 23.5rem;
     }
@@ -2612,5 +2795,16 @@ section#endnote div.note p{
     font-size: 0.6rem;
 }
 
+footer div.top{
+    display: none;
+}
+footer div.intermediate{
+    display: none;
+}footer section#topmenu{
+    display: none;
+
+    /* }footer div.copy{
+    display: none;
+} */
 }
   
