@@ -1413,14 +1413,16 @@ footer div.copy{
     color: #c7c7cd;
     padding-bottom: 0.5rem;
     padding-top: 1rem;
-
+}
+footer div.small-screen{
+    display: none;
 }
 
 footer div.copy p{
     margin-left: 44rem;
-
-
 }
+
+
 /* @media screen and (max-width: 1440px){
     section#landing ul{ 
         width: 12.3rem;
@@ -2802,9 +2804,83 @@ footer div.intermediate{
     display: none;
 }footer section#topmenu{
     display: none;
-
-    /* }footer div.copy{
-    display: none;
-} */
 }
+
+footer div.small-screen{
+    display: block;
+    text-transform: uppercase;
+    background-color: #282828;
+    font-size: xx-small;
+    width: 100vw;
+    margin-left: -6.5rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    padding-top: -10rem;
+}
+
+footer div.small-screen ul li{
+    margin-left: -1rem;
+    text-align: center;
+}
+
+footer div.small-screen a{
+    color: #ffffff;
+}
+
+footer div.small-screen div.back-to-top{
+    background-color: #323232;
+    margin-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    width: 100vw;
+    text-align: center;
+}
+
+footer div.small-screen div.back-to-top a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: xx-small;
+}
+
+footer div.small-screen div.main div.first ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer div.small-screen div.main{
+    margin-left: -2.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+footer div.small-screen div.main div.second ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer div.small-screen div.main div.third{
+    margin-left: 2.2rem;
+}
+
+footer div.small-screen div.main div.third ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer div.copy{
+    background-color: #282828;
+    padding-top: 0.1rem;
+    padding-left: 0rem;
+    margin-left: -6.5rem;
+    padding-bottom: 0.3rem;
+
+}
+
+footer div.copy p{
+    margin-left: 0rem;
+    font-size: xx-small;
+    text-align: center;
+}
+
+}
+
   
